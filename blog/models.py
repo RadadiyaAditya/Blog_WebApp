@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 #to connect user model with post model
 from django.contrib.auth.models import User
@@ -14,3 +15,7 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+    
+    #this method is used to redirect to the post detail page after creating a new post
+    def get_absolute_url(self):
+        return reverse('post-detail', kwargs = {'pk': self.pk})
