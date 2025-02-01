@@ -7,20 +7,18 @@ A full-featured Blog Web Application built with modern web technologies.
 - User Authentication (Login/Signup)
 - Create, Read, Update, and Delete (CRUD) blog posts
 - User Profile Management
-- Comments and Likes System
 - Responsive and Mobile-Friendly UI
 - Rich Text Editor for blog content
-- Search and Filtering Options
 - Secure User Sessions
 - Admin Dashboard
 
 ## Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript, Bootstrap
-- **Backend:** Python (Flask/Django)
-- **Database:** SQLite / PostgreSQL / MySQL
-- **Authentication:** Flask-Login / Django Authentication System
-- **Deployment:** Docker, Heroku / AWS / DigitalOcean
+- **Frontend:** HTML, CSS, Bootstrap
+- **Backend:** Python (Django)
+- **Database:** SQLite
+- **Authentication:** Django Authentication System
+
 
 ## Installation
 
@@ -51,13 +49,11 @@ Ensure you have the following installed:
 
 4. **Set up the database:**
    ```sh
-   flask db upgrade  # If using Flask
    python manage.py migrate  # If using Django
    ```
 
 5. **Run the application:**
    ```sh
-   flask run  # For Flask
    python manage.py runserver  # For Django
    ```
 
