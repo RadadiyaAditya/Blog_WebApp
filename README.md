@@ -19,6 +19,10 @@ A full-featured Blog Web Application built with modern web technologies.
 - **Database:** SQLite
 - **Authentication:** Django Authentication System
 
+## App Diagram
+![Screenshot 2025-02-01 165849](https://github.com/user-attachments/assets/68171a91-605b-498f-9e73-4f7ccc574b61)
+
+
 
 ## Installation
 
