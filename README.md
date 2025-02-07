@@ -53,15 +53,15 @@ Ensure you have the following installed:
 
 4. **Set up the database:**
    ```sh
-   python manage.py migrate  # If using Django
+   python manage.py migrate 
    ```
 
 5. **Run the application:**
    ```sh
-   python manage.py runserver  # For Django
+   python manage.py runserver  
    ```
 
-6. Open your browser and go to `http://127.0.0.1:5000/` (Flask) or `http://127.0.0.1:8000/` (Django).
+6. Open your browser and go to `http://127.0.0.1:8000/` (Django).
 
 ## Usage
 
